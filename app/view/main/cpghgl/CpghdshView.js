@@ -1,0 +1,13 @@
+﻿Ext.define("MyApp.view.main.cpghgl.CpghdshView",{
+    extend:"Ext.container.Container",xtype:"CpghdshView",
+    requires:[
+    "MyApp.view.main.showView.CpghdListView",
+    "MyApp.view.main.cpghgl.CpghdshShowView",
+    'MyApp.view.main.cpghgl.CpghdghshStore',
+    'MyApp.store.CpghdcwStore'
+],
+    controller:"CpghdshCtrl",layout:"fit",closeAction:"destroy",
+    items:[
+        {xtype:"CpghdListView"}
+    ]
+});

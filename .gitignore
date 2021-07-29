@@ -1,0 +1,14 @@
+.idea
+composer.lock
+
+*.log
+
+
+*.zip
+
+*.txt
+
+
+uploadFiles/
+
+build/
